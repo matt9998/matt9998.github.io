@@ -1047,7 +1047,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
   }
   .section-center1 {
   width: 90vw;
-  margin: 0 200px 0 200px;
+  margin: 0 auto 0 auto;
   max-width: 1170px;
   display: grid;
   gap: 3rem 2rem;
