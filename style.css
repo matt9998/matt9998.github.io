@@ -102,6 +102,35 @@ section .title{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
+section .title2{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+section .title2::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 900px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+section .title2::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: #1CB5E0	;
+    padding: 0 5px;
+    background: #000;
+    transform: translateX(-50%);
+}
 section .title::before{
     content: "";
     position: absolute;
@@ -517,6 +546,11 @@ background: -webkit-linear-gradient(to right, #1CB5E0, #000046)!important;  /* C
 background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 }
 
+.teams .title2::after{
+    content: "Click Image To View";
+	margin: auto;
+}
+
 /* contact section styling */
 .contact {
 	background: #fff;
@@ -578,7 +612,7 @@ background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-2
 background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     font-size: 20px;
-    text-align: center;
+	text-align: center;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
@@ -626,7 +660,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 16px;
+    margin: 1px;
     text-align: left;
     width: 160px;
     box-sizing: border-box;
@@ -657,6 +691,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
   .social__media {
     max-width: 1000px;
     width: 100%;
+	
   }
   
   .social__media--wrap {
@@ -1047,7 +1082,7 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
   }
   .section-center1 {
   width: 90vw;
-  margin: 0 auto 0 auto;
+  margin: 0 200px 0 200px;
   max-width: 1170px;
   display: grid;
   gap: 3rem 2rem;
