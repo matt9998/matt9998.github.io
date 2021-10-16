@@ -108,7 +108,7 @@ section .title2{
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     font-family: 'Ubuntu', sans-serif;
 }
 section .title2::before{
