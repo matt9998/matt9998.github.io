@@ -128,7 +128,7 @@ section .title2::after{
     font-size: 20px;
     color: #1CB5E0	;
     padding: 0 5px;
-    background: #000;
+    background: #111;
     transform: translateX(-50%);
 }
 section .title::before{
